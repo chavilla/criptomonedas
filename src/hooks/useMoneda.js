@@ -43,7 +43,7 @@ const useMoneda=(label,stateInicial,opciones)=>{
     );
 
   //Retorna nuestro state, la interfaz, y la funcion q modifica el state
-    return [state,Seleccionar];
+    return [state,Seleccionar,setstate];
 }
 
 export default useMoneda;
